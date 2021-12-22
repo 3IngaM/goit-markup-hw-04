@@ -697,6 +697,9 @@ img {
   background-color: var(--primary-black-color);
 }
 
+.container-footer {
+  display: flex;
+}
 .footer-adress {
   background-color: var(--primary-black-color);
 }
@@ -778,6 +781,7 @@ img {
   margin-left: 70px;
 }
 .social-item {
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
