@@ -699,6 +699,10 @@ img {
 
 .container-footer {
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-adress {
   background-color: var(--primary-black-color);
@@ -749,10 +753,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.footer-container {
-  display: flex;
 }
 
 .join-container {
