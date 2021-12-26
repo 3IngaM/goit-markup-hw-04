@@ -244,7 +244,7 @@ img {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/img.jpg);
-  background-repeat: no-repeat;
+  background-repeat: cover;
   background-position: 50% 50%;
   background-size: cover;
   max-width: 1600px;
@@ -415,7 +415,7 @@ img {
 
 .astronaut {
   --astronaut-color: var(--primary-text-color);
-  --astronautaccent-color: var(--accent-color);
+  --astronaut-accent-color: var(--accent-color);
   width: 270px;
   height: 120px;
   display: flex;
