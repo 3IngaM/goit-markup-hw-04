@@ -538,19 +538,42 @@ img {
 
 .social-list {
   display: flex;
-  justify-content: center;
   padding: 0;
   margin: 0;
   list-style: none;
+  justify-content: center;
 }
-.social-item {
+.item {
   padding: 0;
   border: none;
+  color: #ffffff;
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
-  color: #ffffff;
   border-radius: 50%;
+  background-color: #2196f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:hover {
+  color: #2196f3;
+}
+.item.item + .item.item {
+  margin-left: 10px;
+}
+
+.item-icon-instagram1 {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* .social-item-icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 .social-item-icon:hover {
@@ -562,25 +585,6 @@ img {
 }
 .social-item + .social-item {
   margin-left: 10px;
-}
-
-.social-icon-instagram2 {
-  --instagram2-background-color: var(--primary-light-color);
-  --instagram2-accent-color: var(--icon-unactive);
-}
-
-.social-icon-twitter {
-  --twitter-color: var(--icon-unactive);
-}
-
-.social-icon-facebook {
-  --facebook-background-color: var(--primary-light-color);
-  --facebook-accent-color: var(--icon-unactive);
-}
-
-.social-icon-facebook2 {
-  --facebook2-color: var(--secondary-text-color);
-  --facebook2-accent-color: var(--primary-light-color);
 }
 
 .social-link {
@@ -596,7 +600,7 @@ img {
 .social-link:focus {
   background-color: #2196f3;
   color: var(--primary-light-color);
-}
+} */
 
 /* Filtre on the pages */
 .portfolio-section {
