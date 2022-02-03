@@ -548,9 +548,9 @@ img {
   border: none;
   width: 44px;
   height: 44px;
-  color: #afb1b8;
-  border-radius: 50%;
   background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50%;
 }
 
 .social-item-icon:hover {
@@ -562,10 +562,6 @@ img {
 }
 .social-item + .social-item {
   margin-left: 10px;
-}
-.social-icon-instagram1 {
-  --instagram1-background-color: var(--primary-light-color);
-  --instagram1-accent-color: var(--icon-unactive);
 }
 
 .social-icon-instagram2 {
@@ -594,10 +590,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.social-icon-instagram1 {
-  fill: currentColor;
 }
 
 .social-link:hover,
