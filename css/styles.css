@@ -243,12 +243,14 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/img.jpg);
-  background-repeat: cover;
+    url(../images/img.png);
+  background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   max-width: 1600px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-hero-title {
@@ -537,18 +539,42 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-.social-item .social-icon-facebook,
-.social-icon-facebook2 {
+.social-item {
+  padding: 0;
+  border: none;
   width: 44px;
   height: 44px;
+  color: #afb1b8;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
+.social-item-icon:hover {
+  color: #2196f3;
+}
+
+.social-item-icon {
+  fill: currentColor;
+}
 .social-item + .social-item {
   margin-left: 10px;
 }
-.social-link {
-  background-color: #2196f3;
+.social-icon-instagram1 {
+  --instagram1-background-color: var(--primary-light-color);
+  --instagram1-accent-color: var(--icon-unactive);
+}
+
+.social-icon-instagram2 {
+  --instagram2-background-color: var(--primary-light-color);
+  --instagram2-accent-color: var(--icon-unactive);
+}
+
+.social-icon-twitter {
+  --twitter-color: var(--icon-unactive);
 }
 
 .social-icon-facebook {
@@ -570,7 +596,7 @@ img {
   justify-content: center;
 }
 
-.social-icon {
+.social-icon-instagram1 {
   fill: currentColor;
 }
 
