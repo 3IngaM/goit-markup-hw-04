@@ -545,35 +545,11 @@ img {
 .social-item + .social-item {
   margin-left: 10px;
 }
-.social-item-instagram1 {
+.social-item {
   display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #2196f3;
-  border: none;
-  color: #ffffff;
-  align-items: center;
-  justify-content: center;
-}
-
-.social-icon-instagram1:hover {
-  color: #2196f3;
-}
-
-.social-icon-instagram1 {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
-.social-item-twitter1,
-.social-item-facebook1,
-.social-item-linkedin1,
-.social-item-instagram2 {
-  display: flex;
-  width: 44px;
-  height: 44px;
   background-color: #ffffff;
   border: none;
   color: #afb1b8;
@@ -581,9 +557,29 @@ img {
   justify-content: center;
 }
 
+.social-icon-instagram1:hover,
+.social-icon-instagram1:focus,
+.social-icon-twitter1:hover,
+.social-icon-twitter1:focus,
+.social-icon-facebook1:hover,
+.social-icon-facebook1:focus,
+.social-icon-linkedin1:hover,
+.social-icon-linkedin1:focus,
+.social-icon-instagram2:hover,
+.social-icon-instagram2:focus,
 .social-icon:hover,
 .social-icon:focus {
   color: #2196f3;
+}
+
+.social-icon-instagram1,
+.social-icon-twitter1,
+.social-icon-facebook1,
+.social-icon-linkedin1,
+.social-icon-instagram2 {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 /* Filtre on the pages */
@@ -701,11 +697,6 @@ img {
   fill: var(--accent-color);
 }
 
-.clients-link.link:hover,
-.clients-icons-4 {
-  fill: var(--accent-color);
-}
-
 /* Footer */
 
 .footer {
@@ -776,8 +767,6 @@ img {
   justify-content: center;
   align-items: center;
   margin-left: 70px;
-  margin-top: 12px;
-  margin-bottom: 100px;
 }
 
 .join {
@@ -798,44 +787,27 @@ img {
   list-style: none;
   justify-content: center;
 }
-.social-item-twitter2 {
+.social-item-footer {
   display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: #rgba(255, 255, 255, 0.1);
   border: none;
   color: #ffffff;
   align-items: center;
   justify-content: center;
 }
-
-.social-icon-twitter2:hover {
+.social-icon-footer:hover,
+.social-icon-footer:focus {
   color: #2196f3;
 }
 
-.social-icon-twitter2 {
+.social-icon-footer {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 .social-item-footer + .social-item-footer {
   margin-left: 10px;
-}
-
-.social-item-footer {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  border: none;
-  color: #ffffff;
-  align-items: center;
-  justify-content: center;
-}
-
-.social-icon-footer:hover,
-.social-icon-footer:focus {
-  color: #2196f3;
 }
