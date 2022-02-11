@@ -567,6 +567,7 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
+  fill: currentColor;
 }
 .social-item:hover,
 .social-item:focus {
