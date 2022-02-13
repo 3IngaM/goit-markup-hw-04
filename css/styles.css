@@ -73,7 +73,7 @@ img {
 }
 
 /* Logo */
-.heder-first {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -111,6 +111,8 @@ img {
 
 .header-row .list {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   padding: 0px;
 }
 
@@ -125,7 +127,6 @@ img {
 .auth-nav {
   justify-self: self-end;
 }
-
 .logo-first-header {
   display: inline-block;
   padding-top: 24px;
@@ -178,13 +179,12 @@ img {
 }
 
 /* Auth-nav*/
+
 .contacts-auth {
-  margin-right: 30px;
-}
-.contacts-link-up,
-.contacts-link-upitem {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-right: 30px;
 }
 
 .envelope,
@@ -359,13 +359,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
   --antenna-color: var(--primary-text-color);
   --antenna-accent-color: var(--accent-color);
   width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 30px;
 }
 
