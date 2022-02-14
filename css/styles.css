@@ -352,7 +352,6 @@ img {
 .benefits-ul li {
   margin-right: 30px;
   width: 270px;
-  height: 215px;
 }
 
 .antenna {
@@ -525,7 +524,7 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .social-list {
@@ -543,12 +542,15 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
   border: none;
   color: #afb1b8;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+}
+.social-link link {
+  background-color: #ffffff;
+  color: #afb1b8;
 }
 .social-icon {
   fill: #ffffff;
