@@ -174,7 +174,8 @@ img {
 .current,
 .nav-link:hover,
 .nav-link:focus,
-.icon:hover {
+.social-icon:hover,
+.socal-icon:focus {
   color: var(--accent-color);
 }
 
@@ -187,9 +188,12 @@ img {
   margin-right: 30px;
 }
 
+.contacts-link-up,
+.contacts-link-up-item {
+  fill: #757575;
+}
 .envelope,
 .smartphone {
-  fill: #757575;
   margin-right: 10px;
 }
 .envelope,
@@ -198,7 +202,7 @@ img {
 }
 .contacts-link-up,
 .contacts-link-up-item {
-  display: inline-block;
+  display: flex;
   color: var(--secondary-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -609,7 +613,6 @@ img {
 }
 .item-description-wrp {
   padding: 20px 24px;
-
   border: 1px solid #eee;
   box-sizing: border-box;
 }
@@ -655,6 +658,8 @@ img {
   margin: 0;
 }
 .clients-list-items {
+  display: flex;
+  justify-content: center;
   text-align: center;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -662,11 +667,10 @@ img {
   margin-right: 30px;
   width: 170px;
   height: 92px;
-  align-self: center;
-  justify-content: center;
 }
 .clients-icons {
-  fill: var(--accent-color);
+  display: flex;
+  fill: currentColor;
 }
 
 .clients-list-items:hover,
@@ -684,16 +688,18 @@ img {
 
 .clients-link {
   display: flex;
-  cursor: pointer;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  justify-content: center;
+  align-items: center;
   margin-right: 0px;
+}
+.clients-link {
+  background-color: #ffffff;
+  color: #afb1b8;
 }
 .clients-icons {
   display: flex;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
   fill: var(--icon-unactive);
 }
 
@@ -807,7 +813,10 @@ img {
 .social-item-footer:focus {
   background-color: #2196f3;
 }
-
+.social-link link {
+  background-color: #ffffff;
+  color: #afb1b8;
+}
 .social-icon-footer {
   width: 20px;
   height: 20px;
