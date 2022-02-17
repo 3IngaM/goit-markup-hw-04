@@ -587,7 +587,7 @@ img {
 }
 
 .portfolio-section .list {
-  margin-bottom: 50px;
+  margin-bottom: 34px;
   text-align: center;
 }
 
@@ -602,23 +602,30 @@ img {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .flex-element {
   display: block;
   width: 370px;
   margin-left: 30px;
-  margin-top: 34px;
+  margin-top: 30px;
+}
+
+.flex-element {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #eee;
+}
+.flex-element {
+  fill: 1px solid #ffffff;
+  stroke: 1px solid #eeeeee;
 }
 .flex-element:hover,
-.flex-element:focus,
-.flex-element-inner:hover,
-.flex-element-inner:focus {
-  box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.16), 4px 0px 4px rgba(0, 0, 0, 0.06),
+.flex-element:focus {
+  box-shadow: 1px 4px rgba(0, 0, 0, 0.16), 0px 4px rgba(0, 0, 0, 0.06),
     0px 1px rgba(0, 0, 0, 0.12);
-  border: 1px solid #eee;
-  box-sizing: border-box;
+  border-radius: 6px 4px 1px;
 }
 
 .item-description-wrp {
