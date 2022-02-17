@@ -349,30 +349,33 @@ img {
   display: flex;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 .benefits-ul li:last-child {
   margin-right: 0;
 }
 .benefits-ul li {
-  margin-right: 30px;
   width: 270px;
+  margin-right: 30px;
 }
-
-.antenna {
+.benefits-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  --antenna-color: var(--primary-text-color);
-  --antenna-accent-color: var(--accent-color);
   width: 270px;
   height: 120px;
   background: #f5f4fa;
+  margin-right: 30px;
   border-radius: 4px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 30px;
+}
+
+.benefits-details {
+  padding: 30px;
+}
+
+.antenna {
+  --antenna-color: var(--primary-text-color);
+  --antenna-accent-color: var(--accent-color);
 }
 
 .clock {
@@ -532,28 +535,32 @@ img {
 
 .social-list {
   display: flex;
+  justify-content: center;
   padding: 0;
   margin: 0;
   list-style: none;
-  justify-content: center;
 }
 .social-item + .social-item {
   margin-left: 10px;
 }
 .social-item {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  border: none;
   color: #afb1b8;
+  border-radius: 50%;
+}
+.social-link link {
+  display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-}
-.social-link link {
   background-color: #ffffff;
   color: #afb1b8;
+  border-radius: 50%;
+  border: none;
 }
 .social-icon {
   fill: #ffffff;
@@ -644,33 +651,56 @@ img {
 }
 
 .clients-title {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  display: flex;
-  justify-content: center;
+
   margin-bottom: 50px;
 }
 
 .clients-list {
   display: flex;
-  list-style: none;
+  justify-content: center;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
+
+.clients-list-items:last-child {
+  margin-right: 0px;
+}
+
 .clients-list-items {
   display: flex;
+  align-items: center;
   justify-content: center;
   text-align: center;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-right: 30px;
   width: 170px;
   height: 92px;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 30px;
 }
-.clients-icons {
+
+.clients-link link {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clients-icons {
+  fill: #ffffff;
+}
+
+.clients-icons {
   fill: currentColor;
 }
 
@@ -683,20 +713,6 @@ img {
   fill: #2196f3;
 }
 
-.clients-list-items:last-child {
-  margin-right: 0px;
-}
-
-.clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 0px;
-}
-.clients-link {
-  background-color: #ffffff;
-  color: #afb1b8;
-}
 .clients-icons {
   display: flex;
   justify-content: center;
@@ -794,35 +810,52 @@ img {
 }
 .social-list-footer {
   display: flex;
+  justify-content: center;
   padding: 0;
   margin: 0;
   list-style: none;
-  justify-content: center;
 }
+.social-item-footer + .social-item-footer {
+  margin-left: 10px;
+}
+
 .social-item-footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
   background-color: rgba(100, 100, 100, 0.4);
-  border: none;
   color: #ffffff;
+  border-radius: 50%;
+}
+
+.social-link link {
+  display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #ffffff;
+  border-radius: 50%;
+  border: none;
 }
-.social-item-footer:hover,
-.social-item-footer:focus {
-  background-color: #2196f3;
+
+.social-icon-footer {
+  fill: #ffffff;
 }
-.social-link link {
-  background-color: #ffffff;
-  color: #afb1b8;
-}
+
 .social-icon-footer {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
-.social-item-footer + .social-item-footer {
-  margin-left: 10px;
+.social-item-footer:hover,
+.social-item-footer:focus {
+  background-color: #2196f3;
+}
+
+.social-item-footer:hover .social-icon-footer,
+.social-item-footer:focus .social-icon-footer {
+  fill: #ffffff;
 }
