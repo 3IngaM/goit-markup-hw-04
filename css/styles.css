@@ -117,9 +117,7 @@ img {
 }
 
 .header-row .list a {
-  display: inline-block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: flex;
 }
 .header-row nav {
   margin-right: auto;
@@ -203,6 +201,8 @@ img {
 .contacts-link-up,
 .contacts-link-up-item {
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--secondary-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -517,6 +517,7 @@ img {
 .social-item + .social-item {
   margin-left: 10px;
 }
+
 .social-item {
   display: flex;
   align-items: center;
