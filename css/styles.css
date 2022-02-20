@@ -593,8 +593,8 @@ img {
   text-decoration: none;
 }
 
-.portfolio-list > .flex-element-inner:hover,
-.portfolio-list > .flex-element-inner:focus {
+.flex-element-inner:hover,
+.flex-element-inner:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.6),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
